@@ -31,6 +31,10 @@ I’m pursuing entry-level roles in security operations and network engineering.
 
 [Cybersecurity portfolio](https://elvis-beeching.elvisbeeching.chatgpt.site) · [LinkedIn](https://www.linkedin.com/in/elvisbeeching)
 
+### Independent incident analysis
+
+[Microsoft 365 outage analysis](projects/microsoft-365-outage-analysis.md) · Reconstructed the public timeline, mapped service impact, and documented enterprise triage, recovery checks, and an internal status update.
+
 ### SOC investigations
 
 These investigations come from simulated training environments. The write-ups include findings and, where available, supporting screenshots.
