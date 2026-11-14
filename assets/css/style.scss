@@ -4,22 +4,26 @@
 @import "{{ site.theme }}";
 
 :root {
-  color-scheme: light;
-  --paper: #faf7ef;
-  --ink: #192d45;
-  --muted: #4c5866;
-  --rule: #c9c1b2;
-  --link: #225576;
+  color-scheme: dark;
+  --paper: #101831;
+  --ink: #eaf2ff;
+  --muted: #bdcce3;
+  --rule: #354b71;
+  --link: #8ccaff;
 }
 
 body {
   margin: 0;
-  background: var(--paper);
+  background-color: var(--paper);
+  background-image: linear-gradient(90deg, rgba(125, 168, 230, .075) 1px, transparent 1px),
+    linear-gradient(rgba(125, 168, 230, .075) 1px, transparent 1px);
+  background-size: 32px 32px;
   color: var(--ink);
 }
 body .markdown-body {
   box-sizing: border-box;
-  max-width: 940px;
+  max-width: 1000px;
+  background: #101831f5;
   margin: 0 auto !important;
   padding: clamp(24px, 6vw, 72px) !important;
   color: var(--ink);
@@ -29,21 +33,21 @@ body .markdown-body {
 .markdown-body > h1:first-child:has(> a:only-child) { display: none; }
 .markdown-body h1, .markdown-body h2, .markdown-body h3 {
   color: var(--ink);
-  font-family: "Instrument Serif", Georgia, serif;
-  font-weight: 500;
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-weight: 600;
 }
 .markdown-body h1 {
   font-size: clamp(2.7rem, 7vw, 5rem);
   line-height: 1.05;
   letter-spacing: -.045em;
 }
-.markdown-body h2 { margin-top: 1.7em; font-size: clamp(1.7rem, 4vw, 2.35rem); }
+.markdown-body h2 { color: var(--link); margin-top: 1.7em; font-size: clamp(1.7rem, 4vw, 2.35rem); }
 .markdown-body h3 { font-size: 1.5rem; }
 .markdown-body h1, .markdown-body h2 { border-bottom-color: var(--rule); }
 .markdown-body a { color: var(--link); text-decoration: underline; text-underline-offset: .18em; }
 .markdown-body a:focus-visible { outline: 2px solid var(--link); outline-offset: 4px; }
 .markdown-body blockquote { color: var(--muted); border-color: var(--rule); }
-.markdown-body pre, .markdown-body code { background: #efeade; color: var(--ink); }
+.markdown-body pre, .markdown-body code { background: #192746; color: var(--ink); }
 .markdown-body img {
   box-sizing: border-box;
   background: #fff;
