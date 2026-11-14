@@ -4,7 +4,7 @@
 
 **Cybersecurity & Network Security** · Dallas–Fort Worth, TX
 
-I have a master’s degree in cybersecurity from EC-Council University and hands-on training in SOC alert triage, log correlation, incident documentation, and Cisco networking. I practiced alert triage and escalation in a simulated SOC internship with MyFirstHack and enterprise network configuration and troubleshooting through NexGenT.
+I’m a Dallas–Fort Worth cybersecurity professional with a master’s degree from EC-Council University and hands-on SOC training. In simulated investigations, I’ve correlated firewall and proxy logs, validated Entra ID alerts against sign-in history, and reviewed Microsoft Defender quarantine evidence. I use ServiceNow to document findings and explain when an alert can be closed or needs further review. My Cisco networking labs have given me practice configuring and troubleshooting simulated enterprise networks.
 
 ## Cybersecurity career interests
 
