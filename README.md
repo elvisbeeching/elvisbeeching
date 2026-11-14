@@ -19,7 +19,7 @@ I’m pursuing entry-level roles in security operations and network engineering.
 ## Certifications
 
 - **CompTIA** — Security+, CySA+, Network+
-- **EC-Council** — CEH, CHFI, CSA, CND
+- **EC-Council** — CEH, CHFI, CSA, CND · [View EC-Council certificates](https://elvis-beeching.elvisbeeching.chatgpt.site/#credentials)
 
 [View credentials on Credly](https://www.credly.com/users/elvisbeeching)
 
