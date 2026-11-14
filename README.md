@@ -18,11 +18,8 @@ I’m pursuing entry-level roles in security operations and network engineering.
 
 ## Certifications
 
-- **CompTIA** — Security+, CySA+, Network+
+- **CompTIA** — Security+, CySA+, Network+ · [View credentials on Credly](https://www.credly.com/users/elvisbeeching)
 - **EC-Council** — CEH, CHFI, CSA, CND · [View EC-Council certificates](https://elvis-beeching.elvisbeeching.chatgpt.site/#credentials)
-
-[View credentials on Credly](https://www.credly.com/users/elvisbeeching)
-
 ## Tools and technologies
 
 - **Security operations** — Microsoft Sentinel, Splunk, Microsoft Defender AV, Entra ID, ServiceNow, LetsDefend, and MITRE ATT&CK.
