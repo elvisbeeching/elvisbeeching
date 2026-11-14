@@ -1,36 +1,45 @@
-# ELVIS BEECHING
-# Cybersecurity & Network Security Professional  
-M.S. in Cybersecurity with hands-on experience in security operations, network engineering, threat detection, incident response, vulnerability management, and network security. Building practical cybersecurity and networking projects to demonstrate real-world technical capabilities.
-Core Skills: SIEM • Splunk • Wireshark • Microsoft Sentinel • Linux • Python • Cisco IOS • VLANs • OSPF • ACLs • NAT • Incident Response • Vulnerability Assessment
+# Elvis Beeching
 
-## 🏆 Certifications
+**Cybersecurity & Network Security** · Dallas–Fort Worth, TX
 
-![CompTIA Security+](https://img.shields.io/badge/CompTIA-Security%2B-EA1D2C?style=for-the-badge&logo=comptia&logoColor=white)
-![CompTIA CySA+](https://img.shields.io/badge/CompTIA-CySA%2B-EA1D2C?style=for-the-badge&logo=comptia&logoColor=white)
-![CompTIA Network+](https://img.shields.io/badge/CompTIA-Network%2B-EA1D2C?style=for-the-badge&logo=comptia&logoColor=white)
+I have a master’s degree in cybersecurity from EC-Council University and hands-on training in SOC alert triage, log correlation, incident documentation, and Cisco networking. I’m pursuing entry-level SOC and network engineering roles.
 
-![EC-Council CEH](https://img.shields.io/badge/EC--Council-CEH-red?style=for-the-badge)
-![EC-Council CHFI](https://img.shields.io/badge/EC--Council-CHFI-red?style=for-the-badge)
-![EC-Council CSA](https://img.shields.io/badge/EC--Council-CSA-red?style=for-the-badge)
-![EC-Council CND](https://img.shields.io/badge/EC--Council-CND-red?style=for-the-badge)
+[Cybersecurity portfolio](https://elvis-beeching.elvisbeeching.chatgpt.site) · [LinkedIn](https://www.linkedin.com/in/elvisbeeching) · [Credly](https://www.credly.com/users/elvisbeeching)
 
-# Technologies & Tools
+## Featured SOC investigations
 
-### 🔐 Cybersecurity
-![Splunk](https://img.shields.io/badge/Splunk-000000?style=for-the-badge&logo=splunk&logoColor=white)
-![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Microsoft Azure](https://img.shields.io/badge/Microsoft_Azure-0078D4?style=for-the-badge)
-![Metasploit](https://img.shields.io/badge/Metasploit-2596CD?style=for-the-badge)
+These cases come from simulated training environments. The linked write-ups include investigation notes and supporting screenshots.
 
-### 🌐 Networking
-![Cisco](https://img.shields.io/badge/Cisco-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white)
-![Packet Tracer](https://img.shields.io/badge/Packet_Tracer-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white)
+| Investigation | What I checked and documented |
+| --- | --- |
+| [Suspected phishing](https://elvis-beeching.elvisbeeching.chatgpt.site/#phishing-investigation) | Correlated firewall and proxy records by connection details and timing. The email appeared later in the timeline, so its connection to the traffic remained unverified. |
+| [PUA detection and quarantine](https://elvis-beeching.elvisbeeching.chatgpt.site/#pua-investigation) | Reviewed the Defender AV quarantine evidence, assessed the detection as a low-severity true positive, and documented remediation in ServiceNow. |
+| [Guest sign-in baseline review](https://elvis-beeching.elvisbeeching.chatgpt.site/#guest-signin-case) | Compared an Entra ID alert with previous sign-ins from the same IP and device. Assessed the first-time condition as a false positive assuming a UTC rule window, and recommended validating the rule settings. |
+| [Out-of-window internal port sweep](https://elvis-beeching.elvisbeeching.chatgpt.site/#port-sweep-case) | Triaged a reported scan affecting 160 internal hosts. Documented missing evidence and requested senior analyst review in ServiceNow. |
 
-`VLANs` • `STP` • `OSPF` • `EIGRP` • `ACLs` • `NAT` • `DHCP` • `IPv6` • `Inter-VLAN Routing`
+## Planned networking labs
 
-### 💻 Programming & Technical
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+- **Enterprise headquarters and branch network** — VLANs, inter-VLAN routing, OSPF, DHCP, NAT, ACLs, and secure management.
+- **Campus high availability** — HSRP, Rapid PVST+, and EtherChannel across a redundant campus. Measure downtime after each core switch failure against a target of under three seconds.
+- **Secure network segmentation** — Validate VLAN boundaries, perimeter controls, and syslog visibility.
+- **Network troubleshooting case studies** — Document symptoms, diagnostics, root causes, and verification.
+- **Network traffic analysis** — Use Wireshark captures to explain protocol behavior and investigate connectivity.
+- **Dual-ISP edge with eBGP** — Verify primary and backup paths, failover, and recovery.
+- **Automated change verification and rollback** — Use Python to validate a change across three routers and verify recovery after rollback.
+
+## Technical skills
+
+- **Security operations** — SIEM monitoring, alert triage, log correlation, incident documentation, and MITRE ATT&CK. Microsoft Sentinel, Splunk, Microsoft Defender AV, Entra ID, ServiceNow, and LetsDefend.
+- **Networking** — Cisco IOS, Packet Tracer, Wireshark, TCP/IP, VLANs, STP, OSPF, EIGRP, ACLs, NAT, DHCP, and IPv6.
+- **Scripting and systems** — Python, PowerShell, Linux, SQL, and Git.
+
+## Applied training
+
+- **MyFirstHack** — Simulated SOC internship focused on alert triage, ServiceNow documentation, and escalation.
+- **NexGenT** — Enterprise network simulation and Cisco configuration and troubleshooting practice.
+
+## Education and certifications
+
+- **M.S. in Cybersecurity**, EC-Council University
+- **CompTIA** — Security+, CySA+, Network+
+- **EC-Council** — CEH, CHFI, CSA, CND
