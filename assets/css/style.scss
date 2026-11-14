@@ -4,67 +4,74 @@
 @import "{{ site.theme }}";
 
 :root {
-  color-scheme: dark;
-  --navy: #0b1424;
-  --panel: #121f33;
-  --text: #e7eef8;
-  --muted: #afc1d7;
-  --teal: #67e8d2;
-  --line: #30435c;
+  color-scheme: light;
+  --paper: #faf7ef;
+  --ink: #192d45;
+  --muted: #4c5866;
+  --rule: #c9c1b2;
+  --link: #225576;
 }
 
 body {
   margin: 0;
-  background: radial-gradient(ellipse at top, #142740, var(--navy) 38rem);
-  color: var(--text);
+  background: var(--paper);
+  color: var(--ink);
 }
 body .markdown-body {
-  max-width: 980px;
-  padding: clamp(20px, 5vw, 68px) !important;
-  color: var(--text);
-  font: 16px/1.65 Inter, system-ui, sans-serif;
+  box-sizing: border-box;
+  max-width: 940px;
+  margin: 0 auto !important;
+  padding: clamp(24px, 6vw, 72px) !important;
+  color: var(--ink);
+  font: 17px/1.65 system-ui, sans-serif;
+  overflow-wrap: anywhere;
 }
 .markdown-body > h1:first-child:has(> a:only-child) { display: none; }
+.markdown-body h1, .markdown-body h2, .markdown-body h3 {
+  color: var(--ink);
+  font-family: "Instrument Serif", Georgia, serif;
+  font-weight: 500;
+}
 .markdown-body h1 {
-  color: var(--text);
-  font-size: clamp(2.3rem, 6vw, 4.2rem);
+  font-size: clamp(2.7rem, 7vw, 5rem);
+  line-height: 1.05;
   letter-spacing: -.045em;
 }
-.markdown-body h2 { color: var(--teal); margin-top: 2.1em; }
-.markdown-body h3 { color: var(--text); }
-.markdown-body h1, .markdown-body h2 { border-bottom-color: var(--line); }
-.markdown-body a { color: var(--teal); text-underline-offset: .18em; }
-.markdown-body a:focus-visible { outline: 2px solid var(--teal); outline-offset: 4px; }
-.markdown-body blockquote { color: var(--muted); border-color: var(--teal); }
-.markdown-body pre, .markdown-body code { background: var(--panel); color: var(--text); }
-.markdown-body img { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; }
-.markdown-body table {
-  display: block;
-  width: 100%;
+.markdown-body h2 { margin-top: 1.7em; font-size: clamp(1.7rem, 4vw, 2.35rem); }
+.markdown-body h3 { font-size: 1.5rem; }
+.markdown-body h1, .markdown-body h2 { border-bottom-color: var(--rule); }
+.markdown-body a { color: var(--link); text-decoration: underline; text-underline-offset: .18em; }
+.markdown-body a:focus-visible { outline: 2px solid var(--link); outline-offset: 4px; }
+.markdown-body blockquote { color: var(--muted); border-color: var(--rule); }
+.markdown-body pre, .markdown-body code { background: #efeade; color: var(--ink); }
+.markdown-body img {
+  box-sizing: border-box;
+  background: #fff;
+  border: 1px solid var(--rule);
 }
-.markdown-body table thead {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  clip-path: inset(50%);
-  white-space: nowrap;
+.markdown-body p > img:not(.portfolio-portrait) { display: block; width: 100%; height: auto; }
+.markdown-body p:has(> img:not(.portfolio-portrait)) { margin: 2rem 0 .45rem; }
+.markdown-body p:has(> img:not(.portfolio-portrait)) + p {
+  color: var(--muted);
+  font-size: .92rem;
 }
-.markdown-body table tbody {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(100%, 250px), 1fr));
-  gap: 16px;
+.markdown-body table { display: table; width: 100%; }
+.markdown-body table th {
+  text-align: left;
+  color: var(--muted);
+  font-size: .85rem;
 }
-.markdown-body table tbody tr,
-.markdown-body table tbody tr:nth-child(2n) {
-  display: block;
-  padding: 18px 20px;
-  border: 1px solid var(--line);
-  border-radius: 12px;
-  background: var(--panel);
+.markdown-body table tr, .markdown-body table tr:nth-child(2n) {
+  background: transparent;
+  border-top-color: var(--rule);
 }
-.markdown-body table td { display: block; padding: 0; border: 0; color: var(--muted); }
-.markdown-body table td:first-child { margin-bottom: .6rem; font-weight: 700; }
+.markdown-body table th, .markdown-body table td {
+  padding: .9rem .75rem .9rem 0;
+  border: 0;
+  border-bottom: 1px solid var(--rule);
+  vertical-align: top;
+}
+.markdown-body table td:first-child { width: 35%; font-weight: 650; }
 
 .markdown-body img.portfolio-portrait {
   float: right;
@@ -72,7 +79,7 @@ body .markdown-body {
   aspect-ratio: 1;
   object-fit: cover;
   margin: 0 0 1rem 1.5rem;
-  border-radius: 16px;
+  border-radius: 4px;
 }
 .markdown-body #cybersecurity-career-interests { clear: both; }
 
