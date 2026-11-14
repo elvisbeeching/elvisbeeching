@@ -17,15 +17,12 @@ These cases come from simulated training environments. The linked write-ups incl
 | [Guest sign-in baseline review](https://elvis-beeching.elvisbeeching.chatgpt.site/#guest-signin-case) | Compared an Entra ID alert with previous sign-ins from the same IP and device. Assessed the first-time condition as a false positive assuming a UTC rule window, and recommended validating the rule settings. |
 | [Out-of-window internal port sweep](https://elvis-beeching.elvisbeeching.chatgpt.site/#port-sweep-case) | Triaged a reported scan affecting 160 internal hosts. Documented missing evidence and requested senior analyst review in ServiceNow. |
 
-## Planned networking labs
+## Skills demonstrated
 
-- **Enterprise headquarters and branch network** — VLANs, inter-VLAN routing, OSPF, DHCP, NAT, ACLs, and secure management.
-- **Campus high availability** — HSRP, Rapid PVST+, and EtherChannel across a redundant campus. Measure downtime after each core switch failure against a target of under three seconds.
-- **Secure network segmentation** — Validate VLAN boundaries, perimeter controls, and syslog visibility.
-- **Network troubleshooting case studies** — Document symptoms, diagnostics, root causes, and verification.
-- **Network traffic analysis** — Use Wireshark captures to explain protocol behavior and investigate connectivity.
-- **Dual-ISP edge with eBGP** — Verify primary and backup paths, failover, and recovery.
-- **Automated change verification and rollback** — Use Python to validate a change across three routers and verify recovery after rollback.
+- **Network log analysis** — Matched source and destination addresses and ports across firewall and proxy logs. Compared timestamps to determine which events belonged to the same connection. [Phishing investigation](https://elvis-beeching.elvisbeeching.chatgpt.site/#phishing-investigation)
+- **Identity alert validation** — Used historical sign-in records to test an Entra ID rule against the account’s normal activity and identify a timezone assumption that affects the verdict. [Guest sign-in review](https://elvis-beeching.elvisbeeching.chatgpt.site/#guest-signin-case)
+- **Endpoint response** — Used Defender AV quarantine details and the reported absence of recurrence to assess severity and document the closure decision in ServiceNow. [PUA investigation](https://elvis-beeching.elvisbeeching.chatgpt.site/#pua-investigation)
+- **Scoping and escalation** — Compared reported scan activity with the approved scan window and identified the scanner job history and firewall/IDS logs needed to determine authorization. [Port sweep triage](https://elvis-beeching.elvisbeeching.chatgpt.site/#port-sweep-case)
 
 ## Technical skills
 
