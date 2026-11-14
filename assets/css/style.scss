@@ -65,3 +65,21 @@ body .markdown-body {
 }
 .markdown-body table td { display: block; padding: 0; border: 0; color: var(--muted); }
 .markdown-body table td:first-child { margin-bottom: .6rem; font-weight: 700; }
+
+.markdown-body img.portfolio-portrait {
+  float: right;
+  width: clamp(120px, 22vw, 190px);
+  aspect-ratio: 1;
+  object-fit: cover;
+  margin: 0 0 1rem 1.5rem;
+  border-radius: 16px;
+}
+.markdown-body #cybersecurity-career-interests { clear: both; }
+
+@media (max-width: 520px) {
+  .markdown-body img.portfolio-portrait {
+    float: none;
+    display: block;
+    margin: 0 0 1rem;
+  }
+}
