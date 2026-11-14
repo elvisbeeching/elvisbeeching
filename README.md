@@ -20,6 +20,7 @@ I’m pursuing entry-level roles in security operations and network engineering.
 
 - **CompTIA** — Security+, CySA+, Network+ · [View credentials on Credly](https://www.credly.com/users/elvisbeeching)
 - **EC-Council** — CEH, CHFI, CSA, CND · [View EC-Council certificates](https://elvis-beeching.elvisbeeching.chatgpt.site/#credentials)
+
 ## Tools and technologies
 
 - **Security operations** — Microsoft Sentinel, Splunk, Microsoft Defender AV, Entra ID, ServiceNow, LetsDefend, and MITRE ATT&CK.
@@ -30,7 +31,9 @@ I’m pursuing entry-level roles in security operations and network engineering.
 
 [Cybersecurity portfolio](https://elvis-beeching.elvisbeeching.chatgpt.site) · [LinkedIn](https://www.linkedin.com/in/elvisbeeching)
 
-These cases come from simulated training environments. The linked write-ups include investigation notes and supporting screenshots.
+### SOC investigations
+
+These investigations come from simulated training environments. The write-ups include findings and, where available, supporting screenshots.
 
 | Investigation | What I checked and documented |
 | --- | --- |
@@ -38,3 +41,11 @@ These cases come from simulated training environments. The linked write-ups incl
 | [PUA detection and quarantine](https://elvis-beeching.elvisbeeching.chatgpt.site/#pua-investigation) | Reviewed the Defender AV quarantine evidence, assessed the detection as a low-severity true positive, and documented remediation in ServiceNow. |
 | [Guest sign-in baseline review](https://elvis-beeching.elvisbeeching.chatgpt.site/#guest-signin-case) | Compared an Entra ID alert with previous sign-ins from the same IP and device. Assessed the first-time condition as a false positive assuming a UTC rule window, and recommended validating the rule settings. |
 | [Out-of-window internal port sweep](https://elvis-beeching.elvisbeeching.chatgpt.site/#port-sweep-case) | Triaged a reported scan affecting 160 internal hosts. Documented missing evidence and requested senior analyst review in ServiceNow. |
+| [Local file inclusion alert](https://elvis-beeching.elvisbeeching.chatgpt.site/#writeups) | Reviewed a suspicious web request and used the HTTP response and reported response size to assess whether file disclosure was supported by the available evidence. |
+
+### Other hands-on training
+
+| Project | What I practiced |
+| --- | --- |
+| [Enterprise network simulation with NexGenT](https://elvis-beeching.elvisbeeching.chatgpt.site/#experience) | Built and secured simulated enterprise networks and used Cisco troubleshooting commands to verify connectivity and diagnose configuration issues. |
+| [Phishing email analysis workflow](https://elvis-beeching.elvisbeeching.chatgpt.site/#writeups) | Documented a workflow for reviewing sender details, headers, URLs, and attachment indicators, then recording findings and a recommended response. |
